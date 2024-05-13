@@ -7,7 +7,7 @@ import {initFlowbite} from "flowbite";
   styleUrls: ['./app.component.css']
 })
 export class AppComponent implements OnInit {
-  title = 'ltd-nutricao-front';
+  title: string = 'ltd-nutricao-front';
 
   ngOnInit(): void {
     initFlowbite();
