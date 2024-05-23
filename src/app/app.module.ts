@@ -12,6 +12,7 @@ import { MatIconModule } from "@angular/material/icon";
 import { FaleConoscoComponent } from './components/fale-conosco/fale-conosco.component';
 import { FormsModule } from "@angular/forms";
 import {CarouselModule} from "./carousel/carousel.module";
+import { NoticiasComponent } from './components/noticias/noticias.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import {CarouselModule} from "./carousel/carousel.module";
     HeaderComponent,
     FooterComponent,
     MainPageComponent,
-    FaleConoscoComponent
+    FaleConoscoComponent,
+    NoticiasComponent
   ],
   imports: [
     BrowserModule,
