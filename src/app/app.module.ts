@@ -13,6 +13,7 @@ import { FaleConoscoComponent } from './components/fale-conosco/fale-conosco.com
 import { FormsModule } from "@angular/forms";
 import {CarouselModule} from "./carousel/carousel.module";
 import { NoticiasComponent } from './components/noticias/noticias.component';
+import { ReceitasSaudaveisComponent } from './components/receitas-saudaveis/receitas-saudaveis.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { NoticiasComponent } from './components/noticias/noticias.component';
     FooterComponent,
     MainPageComponent,
     FaleConoscoComponent,
-    NoticiasComponent
+    NoticiasComponent,
+    ReceitasSaudaveisComponent
   ],
   imports: [
     BrowserModule,

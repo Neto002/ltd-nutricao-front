@@ -32,16 +32,21 @@
       <p>Vídeos</p>
     </div>
 
-    <div class="flex items-center flex-col pr-5 flex-wrap min-h-30 min-w-40">
-      <div
-        class="rounded-full bg-background-green p-5 flex justify-center items-center mb-3 cursor-pointer hover:bg-background-green/90"
-      >
-        <mat-icon class="text-white" aria-hidden="false" aria-label="News icon"
-          >menu_book</mat-icon
+    <a [routerLink]="['/receitas-saudaveis']">
+      <div class="flex items-center flex-col pr-5 flex-wrap min-h-30 min-w-40">
+        <div
+          class="rounded-full bg-background-green p-5 flex justify-center items-center mb-3 cursor-pointer hover:bg-background-green/90"
         >
+          <mat-icon
+            class="text-white"
+            aria-hidden="false"
+            aria-label="News icon"
+            >menu_book</mat-icon
+          >
+        </div>
+        <p>Receitas Saudáveis</p>
       </div>
-      <p>Receitas Saudáveis</p>
-    </div>
+    </a>
   </div>
 </div>
 
